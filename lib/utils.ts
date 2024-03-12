@@ -6,4 +6,4 @@ export function cn(...inputs: ClassValue[]) {
 }
 
 
-export const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+export const delay = (ms:any) => new Promise(resolve => setTimeout(resolve, ms));

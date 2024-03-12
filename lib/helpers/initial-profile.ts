@@ -1,3 +1,5 @@
+"use server"
+
 import { currentUser, redirectToSignIn } from "@clerk/nextjs"
 import { createUser, fetchUserByClerk } from "../actions/user.actions";
 
@@ -7,7 +9,7 @@ import { createUser, fetchUserByClerk } from "../actions/user.actions";
 export const initialProfile = async () => {
 
     const user = await currentUser();
-    
+
     if (!user) {
         return redirectToSignIn()
     }
