@@ -10,102 +10,102 @@ const dishes = [
     name: 'Delicious Dish 1',
     description: 'Description of the delicious dish 1. It\'s absolutely mouth-watering!',
     price: 9.99,
-    image: 'dish1.jpg'
+    image: '/dish1.jpg'
   },
   {
     name: 'Scrumptious Dish 2',
     description: 'Description of the scrumptious dish 2. It\'s a culinary delight!',
     price: 11.99,
-    image: 'dish2.jpg'
+    image: '/dish2.jpg'
   },
   {
     name: 'Exquisite Dish 3',
     description: 'Description of the exquisite dish 3. It\'s a culinary masterpiece!',
     price: 14.99,
-    image: 'dish3.jpg'
+    image: '/dish3.jpg'
   }
 ];
 
 const categories = [
   {
     name: 'Appetizers',
-    image: 'hero.jpg'
+    image: '/hero.jpg'
   },
   {
     name: 'Soups',
-    image: 'soups.jpg'
+    image: '/hero1.jpg'
   },
   {
     name: 'Salads',
-    image: 'salads.jpg'
+    image: '/salads.jpg'
   },
   {
     name: 'Main Courses',
-    image: 'main_courses.jpg'
+    image: '/main_courses.jpg'
   },
   {
     name: 'Pasta',
-    image: 'pasta.jpg'
+    image: '/pasta.jpg'
   },
   {
     name: 'Pizza',
-    image: 'pizza.jpg'
+    image: '/pizza.jpg'
   },
   {
     name: 'Burgers',
-    image: 'burgers.jpg'
+    image: '/burgers.jpg'
   },
   {
     name: 'Sandwiches',
-    image: 'sandwiches.jpg'
+    image: '/sandwiches.jpg'
   },
   {
     name: 'Seafood',
-    image: 'seafood.jpg'
+    image: '/seafood.jpg'
   },
   {
     name: 'Steak',
-    image: 'steak.jpg'
+    image: '/steak.jpg'
   },
   {
     name: 'Chicken',
-    image: 'chicken.jpg'
+    image: '/chicken.jpg'
   },
   {
     name: 'Vegetarian',
-    image: 'vegetarian.jpg'
+    image: '/vegetarian.jpg'
   },
   {
     name: 'Vegan',
-    image: 'vegan.jpg'
+    image: '/vegan.jpg'
   },
   {
     name: 'Side Dishes',
-    image: 'side_dishes.jpg'
+    image: '/side_dishes.jpg'
   },
   {
     name: 'Desserts',
-    image: 'desserts.jpg'
+    image: '/desserts.jpg'
   },
   {
     name: 'Drinks',
-    image: 'drinks.jpg'
+    image: '/drinks.jpg'
   },
   {
     name: 'Cocktails',
-    image: 'cocktails.jpg'
+    image: '/cocktails.jpg'
   },
   {
     name: 'Wines',
-    image: 'wines.jpg'
+    image: '/wines.jpg'
   },
   {
     name: 'Beers',
-    image: 'beers.jpg'
+    image: '/beers.jpg'
   },
   {
     name: 'Spirits',
-    image: 'spirits.jpg'
+    image: '/spirits.jpg'
   }
 ];
 

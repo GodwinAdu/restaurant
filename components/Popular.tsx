@@ -1,4 +1,4 @@
-import React from 'react'
+import Image from 'next/image';
 
 const Popular = () => {
     return (
@@ -9,7 +9,7 @@ const Popular = () => {
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                         {/* Add popular dishes here */}
                         <div className="flex flex-col justify-between bg-white rounded-lg shadow-lg p-6">
-                            <img src="dish1.jpg" alt="Popular Dish 1" className="w-full h-40 object-cover rounded-lg mb-4" />
+                            <Image width={200} height={200} src="/dish1.jpg" alt="Popular Dish 1" className="w-full h-40 object-cover rounded-lg mb-4" />
                             <div>
                                 <h3 className="text-xl font-semibold mb-2">Delicious Dish 1</h3>
                                 <p className="text-gray-700">Description of the delicious dish 1. It's absolutely mouth-watering!</p>
@@ -20,7 +20,7 @@ const Popular = () => {
                             </div>
                         </div>
                         <div className="flex flex-col justify-between bg-white rounded-lg shadow-lg p-6">
-                            <img src="dish2.jpg" alt="Popular Dish 2" className="w-full h-40 object-cover rounded-lg mb-4" />
+                            <Image width={200} height={200} src="/dish2.jpg" alt="Popular Dish 2" className="w-full h-40 object-cover rounded-lg mb-4" />
                             <div>
                                 <h3 className="text-xl font-semibold mb-2">Scrumptious Dish 2</h3>
                                 <p className="text-gray-700">Description of the scrumptious dish 2. It's a culinary delight!</p>
@@ -31,7 +31,7 @@ const Popular = () => {
                             </div>
                         </div>
                         <div className="flex flex-col justify-between bg-white rounded-lg shadow-lg p-6">
-                            <img src="dish3.jpg" alt="Popular Dish 3" className="w-full h-40 object-cover rounded-lg mb-4" />
+                            <Image width={200} height={200} src="/dish3.jpg" alt="Popular Dish 3" className="w-full h-40 object-cover rounded-lg mb-4" />
                             <div>
                                 <h3 className="text-xl font-semibold mb-2">Exquisite Dish 3</h3>
                                 <p className="text-gray-700">Description of the exquisite dish 3. It's a culinary masterpiece!</p>
