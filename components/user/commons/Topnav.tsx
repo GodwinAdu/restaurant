@@ -7,7 +7,7 @@ import { useState } from "react";
 import { usePathname } from "next/navigation";
 import { Menu, X } from "lucide-react";
 
-import { navLinks } from "@/lib/constants";
+import { menuLinks } from "@/lib/constants";
 import { cn } from "@/lib/utils";
 import { buttonVariants } from "../../ui/button";
 
@@ -20,7 +20,7 @@ const Topnav = () => {
             <Image src="/logo.png" alt="logo" width={150} height={70} />
 
             <div className="flex gap-8 max-md:hidden">
-                {navLinks.map((link) => (
+                {menuLinks.map((link) => (
                     <Link
                         href={link.url}
                         key={link.label}
@@ -43,7 +43,7 @@ const Topnav = () => {
                 )}
                 {dropdownMenu && (
                     <div className="absolute top-10 right-6 flex flex-col gap-8 p-5 bg-white shadow-xl rounded-lg">
-                        {navLinks.map((link) => (
+                        {menuLinks.map((link) => (
                             <Link
                                 href={link.url}
                                 key={link.label}
